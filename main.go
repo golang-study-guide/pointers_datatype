@@ -1,7 +1,10 @@
 package main
 
 import "fmt"
-
+// https://medium.com/@kent.rancourt/go-pointers-when-to-use-pointers-4f29256ddff3
+// https://dhdersch.github.io/golang/2016/01/23/golang-when-to-use-string-pointers.html
+// http://piotrzurek.net/2013/09/20/pointers-in-go.html
+// https://winterflower.github.io/2017/08/20/the-asterisk-and-the-ampersand/
 func main() {
 
 	// pointers are created using the asterisk notation
