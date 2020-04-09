@@ -27,7 +27,7 @@ func main() {
 		Name: "Kevin Bacon",
 		Age:  60,
 	}
-	fmt.Println(reflect.TypeOf(kevin)) // *main.user
+	fmt.Println(reflect.TypeOf(kevin)) // *main.User
 
 	kevin.IncAge()
 	fmt.Println(kevin.Age) // 61
