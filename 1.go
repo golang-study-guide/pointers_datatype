@@ -19,13 +19,15 @@ func main() {
 
 	// 1. initialising - this box's lid has a memory location address. To view it
 	// you need to prefix the variable with ampersand "&":
-
 	fmt.Println(&nameBravo) // 0xc0000721e0
 
 	// 2. Infer - To find the type of box this is, i.e. data type:
 	fmt.Println(reflect.TypeOf(nameBravo)) // string
 
 	// 3. Declare - To view the box's content:
-	fmt.Println(nameBravo) // 0xc0000721e0%
+	fmt.Println(nameBravo) // Simon
+	// you can think of the variable name, "nameBravo" as an entry in the index
+	// in the back of a book, where instead of a page number, it gives the 
+	// memory location address, e.g. something like 0xc0000721e0
 
 }
