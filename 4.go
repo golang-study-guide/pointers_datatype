@@ -70,11 +70,7 @@ func main() {
 	fmt.Println(reflect.TypeOf(myPointer)) // *string
 	fmt.Println(*myPointer)                // Murphy
 
-	// here we've essentially created a pointer without needing to use the asterisk notation. You can now
-	// edit the content of the second box by either of the following
 
-	nameEddie = "Jordan"
-	*myPointer = "Jordan"
 
 	// Irrespective of the approach you take, creating a pointer and populating it
 	// requires a minimum of 2 lines of code.
